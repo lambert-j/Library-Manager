@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 50px;
+}
+#form {
+  width: 25vw;
+}
+
+#debile {
+  font-size: 6rem;
+  color: red;
+}
+
+#titles {
+  font-size: 3rem;
+  color: white;
+}
+
+.result-menu {
+  display: none;
+  position: absolute;
+  width: 25vw;
+  height: 300px;
+  background-color: #262626;
+  z-index: 9;
+  transform: translate(28vw, 8vh);
+  gap: 5px;
+  overflow-y: auto;
+  border-radius: 5px 5px;
+}
+
+.result-menu div {
+  margin-left: 15px;
+  margin-top: 4px;
+  font-size: 1.2rem;
+  color: rgba(245, 245, 245, 0.872);
+  text-decoration: none;
+}
+
+.result-menu div:hover {
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+}
+
+.result-menu div span {
+  color: white;
+}
+
+#result-table {
+  width: 60vw;
+}
